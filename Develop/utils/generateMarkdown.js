@@ -33,7 +33,7 @@ function generateMarkdown(data) {
 * [Description](Description)
 * [Installation](Installation)
 * [Usage](Usage)
-* [Contributions](Contributions)
+* [Credit](Credit)
 * [Test](Test)
 * [License](License)
 * [Info](Info)
@@ -47,14 +47,14 @@ ${data.Installation}
 ## Usage
 ${data.Usage}
 
-## Contributions
-${data.Contributors}
+## Credit
+${data.Credit}
 
 ## Test
 ${data.Test}
 
 ## License
-${data.License}
+https://choosealicense.com/licenses/${data.License}
   
 ## Info
 https://github.com/${data.Info}
